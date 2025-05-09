@@ -1,0 +1,42 @@
+/* Osnovni stilovi za body, da footer bude odvojen od sadržaja */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Stilovi za footer */
+.site-footer {
+  margin-top: auto; /* Ovo osigurava da footer bude na dnu stranice */
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #606060;
+  font-size: 14px;
+}
+
+/* Navigacija u footeru */
+.site-footer .footer-nav {
+  margin: 10px 0;
+}
+
+.site-footer .footer-nav a {
+  color: #606060;
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.2s;
+}
+
+.site-footer .footer-nav a:hover {
+  color: #000;
+}
+
+.site-footer .developer-credit {
+  margin-top: 10px;
+  font-weight: 500;
+}
+

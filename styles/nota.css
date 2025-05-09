@@ -1,0 +1,16 @@
+.artist-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  color: #000;
+}
+
+.note-icon svg {
+  width: 14px;
+  height: 14px;
+  color: #606060;
+}
+
+
+
